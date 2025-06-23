@@ -1,0 +1,124 @@
+
+
+      .thumbnail{
+        width: 100%;
+        height:auto
+        border: none;
+        margin-bottom: -15px;
+        transition: border-radius 0.5s;
+      }
+    
+      .thumbnail:hover{
+        border-radius: 0px;
+      }
+
+      .vide0-preview{
+        vertical-align: auto ;
+        width: 300px;    
+        display: inline-block;
+        margin-right: 20px;
+
+      }
+      
+      .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+      }
+
+
+      .profile-picture {
+        width: 43px;
+        margin-top: 15px;
+        border-radius: 50px;
+        
+      }
+
+      .video-title {
+        margin-top: 15.5px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 12px;
+      }
+
+      .thumbnail-row{
+        margin-bottom: 8px;
+        position: relative;
+
+      }
+
+      .vide0-stats,
+      .vide0-author {
+        font-size: 14px;
+        color: rgb(96,96,96);
+        text-decoration:underline none;
+
+        
+      }
+
+      .vide0-author {
+        margin-bottom: 5px;
+        text-decoration: none;
+        
+      }
+
+      .video-auth0r{
+        text-decoration: none;
+      }
+
+      .vide0-author:hover{
+        color: rgb(65, 65, 65);
+        font-size: 14.1px;
+      }
+
+
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 14px;
+        row-gap: 40px;
+      }
+
+      @media (max-width:700px) {
+        .video-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (min-width:701px) and (max-width: 900px) {
+        .video-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media (min-width: 901px) and (max-width:999px) {
+        .video-grid {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+
+      @media (min-wdith: 1000px) {
+        .video-grid {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+
+      .video-time{
+        font-family: Roboto, Arial;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: rgba(0, 0, 0, 0.598);
+        color: white;
+        position: absolute;
+        right: 10px;
+        bottom: -2px;
+        padding-left: 5.6px;
+        padding-right: 5.6px;
+        padding-bottom: 2.6px;
+        padding-top: 2.6px;
+        border-radius: 5px;
+        
+      }
