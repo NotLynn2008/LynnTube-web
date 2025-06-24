@@ -209,7 +209,7 @@ box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.16)
   border:none;
   font-size: medium;
   font-weight:540;
-  margin-left: -10px;
+  margin-left: 0px;
   align-items: center;
   transition: 0.15s;
 }
